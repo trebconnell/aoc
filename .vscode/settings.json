@@ -1,0 +1,7 @@
+{
+  "editor.detectIndentation": false,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+}
