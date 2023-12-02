@@ -1,7 +1,7 @@
 numbers = [[f'{d}', f"{d}"] for d in range(10)] + list(zip(['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'], [f"{d}" for d in range(10)]))
 
 sum = 0
-with open("/home/tconnell/Desktop/input.txt") as f:
+with open("input.txt") as f:
   for line in f.readlines():
     f_d = ''
     f_i = 100000000000000
